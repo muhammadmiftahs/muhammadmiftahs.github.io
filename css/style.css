@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link.active{
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.my-about h1{
+    color: rgb(36,32,30);
+}
+
+.my-about span{
+    color: rgb(82, 148, 112);
+}
+  
+.my-about a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(82, 148, 112);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.my-about a:hover{
+    color: black; 
+}
+
+.my-photo{
+    object-fit: cover;
+    width: 100%;
+}
+
+.main-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+}
+
+.text-content{
+    letter-spacing: 0.025rem;
+    font-size: 0.875rem;
+    color:rgb(34, 33, 33) ;
+}
+
+section{
+    scroll-margin-top: 4rem;
+}
+
+@media (max-width: 600px) {
+    .my-about h1, span, h3{
+        justify-content: center;
+        text-align: center;
+    }
+}
